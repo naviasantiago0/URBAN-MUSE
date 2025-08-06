@@ -1,0 +1,36 @@
+.contenido_texto
+{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  display: flex;
+}
+.texto, .imagen_texto /*agrupar esto se hace cuando tienen lsa mismas caracteristicas*/
+{
+   
+    width: 100%;
+    height: auto;
+    background-color:beige;
+    padding: 8px;
+     display: block;
+    text-align: justify;
+    font-size: 14pt;
+}
+ .texto h1{
+ font-weight: 10px;
+ align-items: center;
+ text-align: center;
+font-size: 18pt;
+ }
+
+
+
+.imagen_texto img  
+{
+ width: 100%;
+  max-width: 400px;
+margin: auto;
+}
+

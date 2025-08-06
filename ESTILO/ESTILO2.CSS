@@ -1,0 +1,48 @@
+.Banner
+{
+background-color: aquamarine;
+width: 100%;
+height: 550px;
+background-image:url(../IMAGENES/BANNER.jpg );
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: relative;
+display:flex ;
+padding: 20px;
+box-sizing: border-box;
+}
+.Banner::before
+{
+content: "";
+position: absolute;
+background-color: rgba(0, 0, 0, 0.201);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.Bannercontent
+{
+ z-index: 5;
+ position: relative;
+ max-width: 90%;
+}
+.Bannercontent h1
+{
+color:white;
+font-size: 14pt;
+font-weight: bold;
+margin-bottom: 10pt;
+}
+.Bannercontent p
+{
+color: white;
+font-size: 15;
+font-weight: bold;
+margin-bottom: 30pt;
+}

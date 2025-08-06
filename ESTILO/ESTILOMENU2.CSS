@@ -1,0 +1,29 @@
+.menusecundario {
+width: 200px;
+background-color: black;
+color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu li a:hover, .menusecundario :focus
+{
+    background-color: blue;
+    color:bisque;
+    transform: scale(1.05);
+    align-items: center;
+}
+.foco.activo{
+background-color: blue;
+color: white;
+font-weight: bold;
+border-left: 5px solid white;
+}

@@ -1,0 +1,49 @@
+	.cab_img
+{
+    width: 100%;
+    height: 200px;
+}
+.menu1 /* Estructura principal*/
+{
+    background-color:black; /* Este es el color del relleno*/
+    width: 100%; /*esta propiedad define el ancho del menú*/
+    display: inline-block;
+}
+.itmenu
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Tipo de fuente*/
+    font-size: 13pt;
+    color:white;
+    display: flex; /*Menú en linea horizontal*/
+    gap: 20px;
+    position: relative;
+    list-style: none;
+    padding: 10px 0;
+    justify-content: center;
+    
+}
+
+.itmenu li
+{
+    display: inline-block;
+    position: relative;
+     
+}
+.itmenu li > a /* Esta propiedad de aqui la empleo para quitar el hipervinculo*/
+{
+    text-decoration:none;
+    color: white;
+    padding: 8px 8px;
+}
+.itmenu li > a:hover :focus
+{
+    background-color: rgb(40, 8, 71);
+    color:bisque;
+    padding: 12px;
+}
+.foco.activo{
+background-color: blue;
+color: white;
+font-weight: bold;
+border-left: 5px solid white;
+}
